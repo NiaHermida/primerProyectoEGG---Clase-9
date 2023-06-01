@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    background-color: #f2eeda;
+    height: 100%;
+    color:#170212;
+    
+}
+
+h1{
+    font-size: 36px;
+    text-align: center; 
+    border:2px solid #170212;
+    padding:5px;
+}
+
+p{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+a:active{
+    color:#57CC99;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+.column {
+    flex: 1;
+    padding: 10px;
+  }
+
+.container-nav{
+    display:flex;
+    padding:10px;
+    height:50px;
+    background-image: linear-gradient(to bottom right, #004643, #0e7c75);
+    font-size:1.3em;
+    font-weight:bold;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    height:10%;
+    padding-top: 22px;
+}
+
+.brand{
+    display:flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+li>a{
+    padding:8px 24px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color:#D1AC00;
+    text-decoration: none;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.button-menu-toggle{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+
+    .nav-links{
+        display:none
+    }
+
+    .button-menu-toggle{
+        display:block;
+        background-color: white;
+        border:none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family:monospace;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .nav-links.nav-links-responsive{
+        position:absolute;
+        display: flex;
+        background-color: rgba(20,20,20,0.95);
+        width:100%;
+        height: 100%;
+        top:70px;
+        left:0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap:70px;
+        font-size: 40px;
+    }
+}
+
+img{
+    width:40%;
+}
+
+#containerAbout{
+    display: flex;
+    justify-content: center;
+}
+
+#pIframe{
+    text-align:center;
+}
+
+footer{
+    background-image: linear-gradient(to bottom right, #004643, #0e7c75);
+    height:100px;
+    
+    
+}
+
+.footerList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5em;
+    padding-top: 42px;
+}
+
+form>div{
+    margin-bottom: 7px;
+    font-size: 1.2em;
+}
+
+
+
+input{
+    width:700px;
+    height:2em;
+}
+
+textarea{
+    width:700px;
+    height:8em; 
+}
+
+#contactoTodo{
+    text-align: center;
+}
