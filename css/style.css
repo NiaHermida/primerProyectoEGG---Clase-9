@@ -127,12 +127,12 @@ a{
         font-size: 40px;
     }
 }
-
+/*
 img{
     width:40%;
 }
 
-#containerAbout{
+ #containerAbout{
     display: flex;
     justify-content: center;
 }
@@ -176,4 +176,4 @@ textarea{
 
 .greeting{
     text-align: center;
-}
+} */
